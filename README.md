@@ -16,4 +16,4 @@ This workshop assumes that you already have you AWS CLI configured for access in
 * Be mindful of what region you are working in as Amazon BedRock is **NOT** available in all regions.
 
 ## Getting Started
-To Get started you can progress to [Step One: Amazon BedRock Basics](step1/01-Introduction.md)
+To Get started you can progress to [Amazon BedRock Basics](stage1/01-Introduction.md)
