@@ -124,7 +124,7 @@ By tweaking the configuration slightly we can actually come up with an image tha
 ## Playground to programmatic access
 OK, so we can get bedrock to generate our script and the images we'll use in our video... but all of this is clickOps through the management console... not exactly a great example of automation.
 
-We'll, we're getting there... but it's important to understand how these things work before we start blindly throwing code at the problem. It's also (from limited experience given the service has only been GA a few weeks) faster to iterate your prompts in the playground than it is in code (unless you wanted to do some kind of Monte carlo type simulation to optimise your inference configurations... but we'll ignore that for the moment).
+We'll, we're getting there... but it's important to understand how these things work before we start blindly throwing code at the problem. It's also (from limited experience given the service has only been GA a few weeks) faster to iterate your prompts in the playground than it is in code (unless you wanted to do some kind of Monte carlo type simulation to optimize your inference configurations... but we'll ignore that for the moment).
 
 But that doesn't mean everything we've done so far has to go to waste. If you take a close look at the playground screen you might notice a little button on the button right of the page labeled "View API request". If you click on it, AWS will actually provide the entire payload needed to generate the request currently in the playground via the API. this is a huge time saver as a number of the date types for these variables change depending on which Foundational Model your using... so it's nice to have a validation point.
 
